@@ -77,8 +77,7 @@
 
 \RequirePackage{graphicx}
 
-\bool_if:NT \g__ptxcd_colorframetitle_bool
-	{\dim_set:Nn \l__ptxcd_beamer_extraindent_dim {\g__ptxcd_beamer_logosep_dim}}
+\dim_set:Nn \l__ptxcd_beamer_extraindent_dim {\g__ptxcd_beamer_logosep_dim}
 
 \setbeamersize{
   text~margin~left=\dimexpr\g__ptxcd_beamer_sep_dim+\l__ptxcd_beamer_extraindent_dim \relax,
